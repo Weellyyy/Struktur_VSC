@@ -30,3 +30,10 @@ int main(){
         cin >> mhs[i].alamat.kota;
         cin.ignore(1,'\n');
 
+        cout << "umur mahasiswa : ";
+        cin >> mhs[i].umur;
+        cin.ignore(1,'\n');
+        cout<<endl; 
+    }
+
+
