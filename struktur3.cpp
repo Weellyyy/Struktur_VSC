@@ -19,3 +19,11 @@ int main(){
     getline(cin,mhs.nim);
     cout << "nama mahasiswa : ";
     getline(cin,mhs.nama);
+    cout << "alamat mahasiswa : "<<endl;
+    cout << "\t nama desa : ";
+    cin >> mhs.alamat.desa;
+    cin.ignore(1,'\n');
+    cout << "\t nama kota : ";
+    cin >> mhs.alamat.kota;
+    cin.ignore(1,'\n');
+
